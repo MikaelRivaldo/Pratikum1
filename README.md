@@ -68,7 +68,7 @@ Dan `SHOW DATABASES;` Untuk melihat database yg kalian punya.
 
 ### Penjelasan:
 - `ALTER TABLE biodata DROP Keterangan;` Hapus field Keterangan dari table biodata.
-- `ALTER TABLE biodata RENAME data_mahasiswa;` Mengganti nama table biodata menjadi data_mahasiswa.
+- `ALTER TABLE biodata RENAME data_mahasiswa;` Digunakan untuk Mengganti nama table biodata menjadi data_mahasiswa.
 - `ALTER TABLE data_mahasiswa CHANGE id NIM char(11);` Ubah kolom/field id menjadi NIM dengan char/string, maks 11 kata.
 
 #### 12. Jadikan nim sebagai PRIMARY KEY!
